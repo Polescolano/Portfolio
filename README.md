@@ -1,8 +1,6 @@
 
 # Pol Escolano
 *An Aspiring AI Developer | Here you will find my projects*
-
-## Linkedin
 https://www.linkedin.com/in/polescolano/
 
 # [Project 1: Crypto Sentiment Analysis](http://youtube.com/dataprofessor)
