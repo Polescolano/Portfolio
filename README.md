@@ -5,9 +5,10 @@ https://www.linkedin.com/in/polescolano/
 
  
 # [Project 1: Cancer tumors detection with AI]()
-![alt text](national-cancer-institute-XrLSV-CKmuQ-unsplash.jpg)
+![cancer tumors detection with AI](national-cancer-institute-XrLSV-CKmuQ-unsplash.jpg)
 
-Photo by <a href="https://unsplash.com/@silverhousehd?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">André François McKenzie</a> on <a href="https://unsplash.com/s/photos/cryptocurrency?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+Photo by <a href="https://unsplash.com/@nci?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">National Cancer Institute</a> on <a href="https://unsplash.com/s/photos/x-rays%2C-mris?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  
 
 This project integrates various news source for performing sentiment analysis pertaining to cryptocurrencies.
 * **Python libraries used:** Streamlit, Huggingface, TensorFlow
