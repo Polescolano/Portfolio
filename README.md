@@ -36,6 +36,6 @@ This project makes use of ***sentiment analysis*** of cryptocurrency coupled wit
 
 
 ## Technologies which I work with
-Development Languages: Java, Python, SQL, Javascript, HTML, CSS. <br>
-AI: OpenCV, Queras, TensorFlow, Deep Dream.<br>
-Cloud: AWS (IAM, S3, E2, SageMaker).<br>
+**Development Languages:** Java, Python, SQL, Javascript, HTML, CSS. <br>
+**AI libraries:** OpenCV, Queras, TensorFlow, Deep Dream.<br>
+**Cloud:** AWS (IAM, S3, E2, SageMaker).<br>
