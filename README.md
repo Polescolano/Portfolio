@@ -10,7 +10,11 @@ https://www.linkedin.com/in/polescolano/
 Photo by <a href="https://unsplash.com/@nci?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">National Cancer Institute</a> on <a href="https://unsplash.com/s/photos/x-rays%2C-mris?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
   
 
-This project integrates various news source for performing sentiment analysis pertaining to cryptocurrencies.
+The world of Deep Learning is proving to be superior in detecting diseases from X-rays, MRIs or thugs, which means that diseases can be diagnosed more quickly and more accurately than a doctor would in this case study.<br>
+
+In this case, we are talking about the fact that we seek to accelerate and improve the speed and precision with which we detect and locate malignant tumors through magnetic resonance imaging of the brain.
+
+If we were able to drastically reduce the costs of being diagnosed with such a cancer, we would help a lot, a lot with the early detection of tumors, which would improve people's quality of life considerably.
 * **Python libraries used:** Streamlit, Huggingface, TensorFlow
 * **Input:** Tweets, News
 * **Output:** Sentiment of Cryptocurrency
