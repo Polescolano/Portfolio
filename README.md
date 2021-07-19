@@ -1,5 +1,5 @@
 
-# Pol Escolano     SITE UNDER CONSTRUCTION
+# Pol Escolano
 *An Aspiring AI Developer | Here you will find my projects* <br><br>
 https://www.linkedin.com/in/polescolano/
 
