@@ -1,10 +1,9 @@
 
-# John Doe
-*An Aspiring Data Scientist | 2X Kaggle Grandmaster*
+# Pol Escolano
+*An Aspiring AI Developer | Here you will find my projects*
 
-# Education
-* Masters of Science (Data Science), *YouTube University*, 2016-2018
-* Bachelors of Science (Data Science), *YouTube University*, 2012-2016
+## Linkedin
+https://www.linkedin.com/in/polescolano/
 
 # [Project 1: Crypto Sentiment Analysis](http://youtube.com/dataprofessor)
 ![alt text](andre-francois-mckenzie-iGYiBhdNTpE-unsplash.jpg)
