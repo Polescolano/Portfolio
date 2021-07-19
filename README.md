@@ -24,7 +24,7 @@ If we were able to drastically reduce the costs of being diagnosed with such a c
 # [Project: Marketing with AI]()
 ![alt text](ai-and-digital-marketing-main-image.jpg)
 
-Photo by <a href="https://www.motocms.com/blog/wp-content/uploads/2019/10/ai-and-digital-marketing-main-image.jpg">Motocms</a> on <a href="https://www.motocms.com/blog/wp-content/uploads/2019/10/ai-and-digital-marketing-main-image.jpg">Motocms</a>
+Photo by <a href="https://www.motocms.com/blog/wp-content/uploads/2019/10/ai-and-digital-marketing-main-image.jpg">Motocms</a>
 
 This project makes use of ***sentiment analysis*** of cryptocurrency coupled with ***technical analysis*** in the trading of cryptocurrencies.
 * **Python libraries used:** Streamlit, python-binance, cctx, talib
@@ -36,6 +36,6 @@ This project makes use of ***sentiment analysis*** of cryptocurrency coupled wit
 
 
 ## Technologies which I work with
-Development Languages: Java, Python, SQL, Javascript, HTML, CSS.
-AI: OpenCV, Queras, TensorFlow, Deep Dream.
-Cloud: AWS (IAM, S3, E2, SageMaker).
+Development Languages: Java, Python, SQL, Javascript, HTML, CSS. <br>
+AI: OpenCV, Queras, TensorFlow, Deep Dream.<br>
+Cloud: AWS (IAM, S3, E2, SageMaker).<br>
