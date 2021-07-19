@@ -3,7 +3,7 @@
 *An Aspiring AI Developer | Here you will find my projects* <br>
 https://www.linkedin.com/in/polescolano/
 
- <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+ <link rel="shortcut icon" type="image/x-icon" href="andre-francois-mckenzie-iGYiBhdNTpE-unsplash.jpg">
  
 # [Project 1: Crypto Sentiment Analysis]()
 ![alt text](andre-francois-mckenzie-iGYiBhdNTpE-unsplash.jpg)
