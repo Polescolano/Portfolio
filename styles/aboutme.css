@@ -1,0 +1,92 @@
+/* PRESENTATION General properties */
+.aboutme{
+  background-color: white;
+}
+.aboutme h5{
+  color: rgba(159,204,185, 1);
+}
+.aboutme p{
+  color: #000;
+}
+.projectTitle h3{
+  font-size: 30px;
+  padding: 50px 50px 50px 60px;
+  text-transform: uppercase;
+  margin: 0px;
+}
+
+  /*
+  *  Especific properties for 500px max resolution of screen 
+  */
+  @media screen and (max-width: 500px) {
+
+    /*   presentation content    */
+    .nuestraLabor p{
+        margin: 20px;    
+        font-size: 20px;
+    }
+    .nuestraLabor img{
+        width: -webkit-fill-available;
+        vertical-align: middle;
+        height: 100px;
+        margin-top: 20px;
+    }
+  }
+  
+  /*
+  *  Especific properties for 500px min resolution of screen 
+  */
+  @media screen and (min-width: 500px) {
+    
+    /*   presentation content    */
+    .aboutme{
+      width: 40%;
+      margin: 1% 10px 10px 10%;
+      padding: 20px;
+      border: 2px solid gray;
+      border-radius: 25px;
+      float: left;
+    }
+    .projectTitle{
+      height: 100px;
+    }
+    .aboutme h5{
+      margin: 3% 0px 0px 5%;
+      font-size: 20px;
+      height: 50px;
+      width: 80% ;
+      text-decoration: none;
+    }
+    .aboutme p{
+        margin: 0px;
+        width: 100%;
+    }
+    .techIcons{
+      margin: 0px !important;
+      width: 100% !important;
+      height: 80px;
+    }
+    .techIcons img{
+      width: 80px ;
+      height: 40px;
+      margin: 5px;
+      float: left;
+    }
+    .quadrat{
+      width: 40px !important;
+      height: 40px !important;
+    }
+    .techTitols{
+      width: 100%;
+      text-transform: uppercase;
+
+    }
+    .skills{
+      width: 30% !important;
+      float: right !important;
+      margin-right: 10%;
+      margin-left: 10px;
+      margin-bottom: 200px;
+    }
+   
+  }
