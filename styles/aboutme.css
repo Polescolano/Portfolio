@@ -1,11 +1,11 @@
 /* PRESENTATION General properties */
-.aboutme{
+.aboutus{
   background-color: white;
 }
-.aboutme h5{
+.aboutus h5{
   color: rgba(159,204,185, 1);
 }
-.aboutme p{
+.aboutus p{
   color: #000;
 }
 .projectTitle h3{
@@ -21,6 +21,36 @@
   @media screen and (max-width: 500px) {
 
     /*   presentation content    */
+    article{
+      width: 100%;
+    }
+    article h5{
+      margin-left: 20px;
+      font-size: 20px;
+      padding-top: 20px;
+    }
+    .projectTitle h3{
+      padding: 20px 50px 20px 60px;
+    }
+    .aboutus p{
+      padding: 15px;
+    }
+    .aboutus li{
+      padding: 0px 15px 0px 15px;
+    }
+    .team a{
+      text-decoration: none;
+      color: rgba(8, 143, 143, 1);
+      width: 100%;
+      text-align: center;
+      padding: 15px;
+      font-size: 25px;
+    }
+    .team img{
+      width: 100%;
+      max-width: 100%;
+      height: auto;
+    }
     .nuestraLabor p{
         margin: 20px;    
         font-size: 20px;
@@ -39,27 +69,50 @@
   @media screen and (min-width: 500px) {
     
     /*   presentation content    */
-    .aboutme{
-      width: 40%;
-      margin: 1% 10px 10px 10%;
-      padding: 20px;
-      border: 2px solid gray;
-      border-radius: 25px;
+    .aboutus{
+      width: 70%;
+      margin: 0px 10px 0px 15%;
+      padding: 40px;
       float: left;
     }
     .projectTitle{
       height: 100px;
     }
-    .aboutme h5{
+    .aboutus h5{
       margin: 3% 0px 0px 5%;
       font-size: 20px;
       height: 50px;
       width: 80% ;
       text-decoration: none;
     }
-    .aboutme p{
+    .aboutus p{
         margin: 0px;
         width: 100%;
+    }
+    .team{
+      padding-top: 0px;
+      height: 50%;
+    }
+    .team div{
+      width: 20%;
+      height: 250px;
+      float: left;
+      margin: 15px;
+    }
+    .team img{
+      width: 100%;
+      height: auto;
+    }
+    .team a{
+      text-decoration: none;
+      color: rgba(8, 143, 143, 1);
+      width: 100%;
+      text-align: center;
+      padding-left: 50px;
+    }
+    .team p{
+      text-align: center;
+
     }
     .techIcons{
       margin: 0px !important;
@@ -81,12 +134,16 @@
       text-transform: uppercase;
 
     }
-    .skills{
-      width: 30% !important;
-      float: right !important;
-      margin-right: 10%;
-      margin-left: 10px;
-      margin-bottom: 200px;
+    .weoffer{
+      width: 35%;
+      padding: 20px;
+      border: 2px solid gray;
+      height: 600px;
+      margin: 0px 0px 50px 15%;
+    }
+    .mm{
+      margin: 0px !important;
+      width: 34.7%;
     }
    
   }
