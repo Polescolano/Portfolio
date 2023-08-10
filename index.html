@@ -6,6 +6,8 @@
 <meta name="description" content="pagina principal refugio animales" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <link rel="stylesheet" media="screen and (min-width: 0px)" href="styles/styles.css" />
+<link rel="stylesheet" media="screen and (min-width: 0px)" href="styles/aboutme.css" />
+<link rel="stylesheet" media="screen and (min-width: 0px)" href="styles/projects.css" />
 </head>
 
 <body>
@@ -34,15 +36,15 @@
                 <nav class="navegation">
                     <ul class="menu">
                         <li><a href="index.html">Home</a></li><!-- borrar CCS submenu, user , chart -->
-                        <li><a href="projects.html">Projects</a></li>
-                        <li><a href="aboutme.html">About me</a></li>
+                        <li><a href="#projectss">Projects</a></li>
+                        <li><a href="#aboutmee">About me</a></li>
                     </ul>
                 </nav>
             </div>
 
 		</header>
         <!-- This div cleans Header elements floats -->
-        <div style="clear:both; height: 0px; margin: 0px;"></div>
+        <div style="clear:both; height: 0px; margin: 0px; margin-top: 150px;"></div>
         <!-- Web main content -->
 		<main> 
 			<article class="mainPresentation">
@@ -56,11 +58,129 @@
 				<p>Hello! I'm Pol, an Data Analyst coming from a backend programmer background and with this mix profile, I sure that I acoppliche my main goal to become a Data Scientist.  
                     <br></br>Want to know more about us? Check the following links
                 </p>
-                <a class="buttn" href="aboutme.html">About me</a>
-                <a class="buttn" href="projects.html">My Projects</a>
+                <a class="buttn" href="#aboutmee">About me</a>
+                <a class="buttn" href="#projectss" id="aboutmee">My Projects</a>
+			</article>
+
+            <div style="clear:both; height: 0px; margin: 0px;"></div>
+
+            <article class="aboutus">
+				<!--<h5>WHO WE ARE?</h5>-->
+				<p>I am a Data Analyst working to improve my Data Scientist skills and better understand how neural activity works.
+                    My expertise includes project design and management, business analysis and the development and implementation of apps/microservices/tools. I enjoy generating new ideas and devising feasible solutions to broadly relevant problems. <br>
+                    <br>Since always I had the dream of becoming a software developer taught me how important fast learning is and the desire to strive for goals. I love learning more, that's why I'm always studying to improve or learn new things, and with that, I’ve had the opportunity to add a range of capabilities to my repertoire, including Java, SQL, Python, JavaScript, HTML and CSS just to name a few.
+                    <br>I've started learning Python for AI; Pandas, TensorFlow and NumPy, OpenCV. <br>
+                    <br>In addition to being a development junkie, I'm a travel fanatic, fantasy book reader, and gamer when I find time.<br>
+                    <br>Currently, I’m seeking opportunities that will allow me to develop and promote AI technologies.
+                </p>
+            </article>
+          
+			<article class="aboutus weoffer" >
+				<h5>Technologies I work with</h5>
+                <p class="techTitols">Programming Languages</p>
+                <p align="left" class="techIcons"> 
+                    <a href="https://www.python.org/" target="_blank" rel="noreferrer"> <img class="quadrat" src="https://www.vectorlogo.zone/logos/python/python-icon.svg" alt="Python" width="80" height="40"/></a> 
+                    <a href="https://www.java.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/java/java-horizontal.svg" alt="Java" width="80" height="40"/></a>
+                    <a href="https://www.w3schools.com/html/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/w3_html5/w3_html5-ar21.svg" alt="HTML" width="80" height="40"/></a>
+                    <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/w3_css/w3_css-ar21.svg" alt="CSS" width="80" height="40"/></a>
+                    <a href="https://learn.microsoft.com/es-es/dotnet/csharp/" target="_blank" rel="noreferrer"> <img class="quadrat" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg" alt="C#" width="80" height="40"/></a>
+                    <a href="https://www.w3schools.com/sql/" target="_blank" rel="noreferrer"> <img class="quadrat" src="https://e7.pngegg.com/pngimages/170/924/png-clipart-microsoft-sql-server-microsoft-azure-sql-database-microsoft-text-logo-thumbnail.png" alt="SQL" width="80" height="40"/></a>
+                </p>
+                <p class="techTitols">Data Visualization</p>
+                <p align="left" class="techIcons"> 
+				    <a href="https://learn.microsoft.com/es-es/power-query/power-query-what-is-power-query" target="_blank" rel="noreferrer"> <img class="quadrat" src="https://raw.githubusercontent.com/microsoft/PowerBI-Icons/main/PNG/Power-Query-Colored.png" alt="PowerQuery" width="80" height="40"/></a> 
+                    <a href="https://powerbi.microsoft.com/es-es/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/microsoft_powerbi/microsoft_powerbi-ar21.svg" alt="PowerBI" width="80" height="40"/></a>
+                    <a href="https://seaborn.pydata.org/" target="_blank" rel="noreferrer"> <img class="quadrat" src="https://seaborn.pydata.org/_images/logo-mark-lightbg.svg" alt="Seaborn" width="80" height="40"/></a> 
+                </p>
+                <p class="techTitols">AI / ML - Data Scientist</p>
+                <p align="left" class="techIcons"> 
+                    <a href="https://pypi.org/project/opencv-python/" target="_blank" rel="noreferrer"> <img class="quadrat" src="https://www.vectorlogo.zone/logos/opencv/opencv-icon.svg" alt="OpenCV" width="80" height="40"/></a> 
+                    <a href="hhttps://www.tensorflow.org/" target="_blank" rel="noreferrer"> <img class="quadrat" src="https://www.vectorlogo.zone/logos/tensorflow/tensorflow-icon.svg" alt="TensorFlow" width="80" height="40"/></a> 
+                    <a href="https://pandas.pydata.org/" target="_blank" rel="noreferrer"> <img class="quadrat" src="https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/pandas/pandas-original.svg" alt="Pandas" width="80" height="40"/></a> 
+                    <a href="https://numpy.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/numpy/numpy-ar21.svg" alt="NumPy" width="80" height="40"/></a>
+                </p>
+                <p class="techTitols">DataBases </p>
+                <p align="left" class="techIcons"> 
+                    <a href="https://www.oracle.com/es/" target="_blank" rel="noreferrer"> <img class="quadrat" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/oracle/oracle-original.svg" alt="Oracle" width="80" height="40"/></a> 
+                    <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> <img class="quadrat" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="Mysql" width="80" height="40"/></a> 
+                    <a href="https://www.microsoft.com/es-es/microsoft-365/sharepoint/collaboration" target="_blank" rel="noreferrer"> <img class="quadrat" src="https://img.icons8.com/fluency/256/microsoft-sharepoint-2019.png" alt="Sharepoint Lists" width="80" height="40"/></a> 
+                    <a href="https://www.mongodb.com/" target="_blank" rel="noreferrer"> <img class="quadrat" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="MongoDB" width="80" height="40"/></a> 
+                    <a href="https://www.microsoft.com/es-es/sql-server/sql-server-downloads" target="_blank" rel="noreferrer"> <img class="quadrat" src="https://www.svgrepo.com/show/303229/microsoft-sql-server-logo.svg" alt="SQLserver" width="80" height="40"/></a> 
+                </p>
+                <p class="techTitols">Microsoft Technologies </p>
+                <p align="left" class="techIcons"> 
+                    <a href="https://www.microsoft.com/es-es/microsoft-365/sharepoint/collaboration" target="_blank" rel="noreferrer"> <img class="quadrat" src="https://img.icons8.com/fluency/256/microsoft-sharepoint-2019.png" alt="Sharepoint" width="80" height="40"/></a> 
+                    <a href="https://powerapps.microsoft.com/" target="_blank" rel="noreferrer"> <img src="https://accessorange.com/wp-content/uploads/2018/10/powerapps-logo.png" alt="PowerApps" width="80" height="40"/></a>
+                    <a href="https://powerautomate.microsoft.com/" target="_blank" rel="noreferrer"> <img src="https://helpdeskgeek.com/wp-content/pictures/2021/09/image-46.png" alt="PowerAutomate" width="80" height="40"/></a>
+				    <a href="https://learn.microsoft.com/es-es/power-query/power-query-what-is-power-query" target="_blank" rel="noreferrer"> <img class="quadrat" src="https://raw.githubusercontent.com/microsoft/PowerBI-Icons/main/PNG/Power-Query-Colored.png" alt="PowerQuery" width="80" height="40"/></a> 
+                    <a  id="projectss" href="https://powerbi.microsoft.com/es-es/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/microsoft_powerbi/microsoft_powerbi-ar21.svg" alt="PowerBI" width="80" height="40"/></a>
+                </p>
 			</article>
 
 
+            <article class="projectTitle">
+				<h3>Projects</h3>			
+            </article>
+            <article class="project">
+                <img src="img/biHyggit2.png" alt="BI Hyggit project">
+                <div class="ProjDesc">
+                    <h5>Associations BI Project</h5>
+                    <p>Project to segment associations. It was analyzed and segmented by location, activity sectors, number of workers and by groups.<br>
+                        We created the entire database from scratch, we cleaned it and prepared it to be analyzed in BI and it was analyzed based on the needs of the project.
+                    </p>
+                </div>
+                <div class="ProjSkills">
+                    <h5 class="techTitle2"> Technologies used</h5>
+                    <p align="left" class="techIcons2"> 
+                        <a href="https://powerbi.microsoft.com/es-es/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/microsoft_powerbi/microsoft_powerbi-ar21.svg" alt="PowerBI" width="80" height="40"/></a>
+                        <a href="https://learn.microsoft.com/es-es/power-query/power-query-what-is-power-query" target="_blank" rel="noreferrer"> <img class="quadrat" src="https://raw.githubusercontent.com/microsoft/PowerBI-Icons/main/PNG/Power-Query-Colored.png" alt="PowerQuery" width="80" height="40"/></a> 
+                    </p>
+                </div>
+            </article>
+            <article class="project">
+                <div class="separator"></div>
+            </article>
+            <article class="project">
+                <img src="img/appStore.PNG" alt="AppStore project">
+				<div class="ProjDesc">
+                    <h5> Project: App Store analysis</h5>
+                    <p>An Apple app developer ask for insights about diferent spects of the applications at the AppStore. So I donwloaded the data from Kaggle, and then clean, model and consult the dataset to show up key information.
+                        <br>The objective was to be able to present an analysis where app spects were shown, providing business intelligence and help in making future decisions for the client, enfasis at the apps ratings.
+                        <br> <a style="text-decoration: underline;" href="https://docs.google.com/presentation/d/1Zii8bqzCjwTf3JeWAJkH5kBST3We5rODoRnA9q9a-Bg/edit?usp=sharing" target="_blank" rel="noreferrer"> Code of the project </a>
+                    </p>
+                </div>
+                <div class="ProjSkills">
+                    <h5 class="techTitle2"> Technologies used</h5>
+                    <p align="left" class="techIcons2"> 
+                        <a href="https://www.kaggle.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/kaggle/kaggle-ar21.svg" alt="Kaggle" width="80" height="40"/></a>
+                        <a href="https://sqliteonline.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/sqlite/sqlite-ar21.svg" alt="sqlite" width="80" height="40"/></a> 
+                    </p>
+                </div>
+            </article>
+            <article class="project">
+                <div class="separator"></div>
+            </article>
+            <article class="project">
+				<img src="img/CapturaBio.PNG" alt="Biodelicies project">
+                <div class="ProjDesc">
+                    <h5> Project: BioDelicies a medium bakery company analysis</h5>
+                    <p>In this project we were asked to develop all the economic and stock analysis of a company that delivers bakery food made with organic and handmade products to stores where the product will be sold to a final customer.
+                        <br>The objective was to be able to present an analysis where all purchases/sales were shown, providing business intelligence and help in making future decisions for the client, always showing simple and understandable information.
+                        <br>* Dummy data on screen
+                    </p>
+                </div>
+                <div class="ProjSkills">
+                    <h5 class="techTitle2"> Technologies used</h5>
+                    <p align="left" class="techIcons2"> 
+                        <a href="https://powerbi.microsoft.com/es-es/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/microsoft_powerbi/microsoft_powerbi-ar21.svg" alt="PowerBI" width="80" height="40"/></a>
+                        <a href="https://learn.microsoft.com/es-es/power-query/power-query-what-is-power-query" target="_blank" rel="noreferrer"> <img class="quadrat" src="https://raw.githubusercontent.com/microsoft/PowerBI-Icons/main/PNG/Power-Query-Colored.png" alt="PowerQuery" width="80" height="40"/></a> 
+                        <a href="https://www.microsoft.com/es-es/microsoft-365/sharepoint/collaboration" target="_blank" rel="noreferrer"> <img class="quadrat" src="https://img.icons8.com/fluency/256/microsoft-sharepoint-2019.png" alt="Sharepoint" width="80" height="40"/></a> 
+                    </p>
+                </div>
+            </article>
+            <article class="project">
+                <p><br></p>
+            </article>
 		</main>
         <!-- This div cleans Header elements floats -->
         <div style="clear:both; height: 0px; margin: 0px;"></div>
