@@ -40,7 +40,8 @@
     }
     .team a{
       text-decoration: none;
-      color: rgba(8, 143, 143, 1);
+      color: rgb(14, 100, 100);
+      /*color: rgba(8, 143, 143, 1); */
       width: 100%;
       text-align: center;
       padding: 15px;
@@ -70,24 +71,29 @@
     
     /*   presentation content    */
     .aboutus{
-      width: 70%;
-      margin: 0px 10px 0px 15%;
-      padding: 40px;
+      width: 100%;
+      margin: 0px 10px 0px 0px;
+      background-color: rgba(159,204,185, 1);
+      padding: 40px 15% 40px 15%;
       float: left;
     }
     .projectTitle{
       height: 100px;
     }
     .aboutus h5{
-      margin: 3% 0px 0px 5%;
-      font-size: 20px;
+      margin: 0px 0px 0px 5%;
+      font-size: 40px;
       height: 50px;
       width: 80% ;
       text-decoration: none;
+      color: #fff;
+      text-align: center;
     }
     .aboutus p{
-        margin: 0px;
+        margin: 0px 10px 0px 0px;
         width: 100%;
+        padding: 10px;
+        font-size: 20px;
     }
     .team{
       padding-top: 0px;
@@ -116,7 +122,7 @@
     }
     .techIcons{
       margin: 0px !important;
-      width: 100% !important;
+      /*width: 100% !important;*/
       height: 80px;
     }
     .techIcons img{
@@ -130,16 +136,17 @@
       height: 40px !important;
     }
     .techTitols{
-      width: 100%;
+      /*width: 100%;*/
       text-transform: uppercase;
 
     }
     .weoffer{
-      width: 35%;
-      padding: 20px;
+      /*width: 35%;
+      padding: 20px; 
       border: 2px solid gray;
       height: 600px;
-      margin: 0px 0px 50px 15%;
+      margin: 0px 0px 50px 15%;*/
+      margin: 0px;
     }
     .mm{
       margin: 0px !important;
