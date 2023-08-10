@@ -1,0 +1,451 @@
+/* General properties */
+* { 
+  -moz-box-sizing: border-box; 
+  -webkit-box-sizing: border-box; 
+   box-sizing: border-box; 
+}
+body{
+  width: 100%;
+  margin: 0px;
+  font-family: Calibri,Candara,Segoe,Segoe UI,Optima,Arial,sans-serif;
+  background-color: rgb(14, 100, 100);
+  
+  /*background-color: midnightblue;    background-color: rgba(8, 143, 143, 1);*/
+  /*
+  background-image: url("https://giphy.com/embed/ITRemFlr5tS39AzQUL");
+  background-size: cover;
+*/
+}
+header{
+  width: 100%;
+  margin: 0px;
+  left: 0; /* Posicionamos la cabecera al lado izquierdo */
+  top: 0; /* Posicionamos la cabecera pegada arriba */
+  position: fixed; 
+  background-color: rgb(14, 100, 100);
+}
+header div{
+  float: left;
+}
+
+
+footer{
+  width: 100%;
+  background-color: RGB(159,204,185);
+  text-align: center;
+  font-size: 20px;
+}
+footer div{
+  width: 100%;
+  margin: 0px;
+  align-items: center;
+}
+.iconsFooter a{
+  background-repeat:no-repeat;
+  width: 35px;
+  height: 35px;
+  display: inline-block;
+  margin: 30px 0px 10px 0px;
+}
+.insta{
+  background-image: url(../img/insta_icon.png);
+}
+.faceb{
+  background-image: url(../img/faceb_icon.png);
+}
+.yt{
+  background-image: url(../img/yt_icon.png);
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+.rightsFooter{
+  color: #fff;
+  margin-top: 20px;
+}
+
+
+/*
+*
+*  Especific properties for 500px max resolution of screen 
+*
+*/
+@media screen and (max-width: 500px) {
+  /*    HEADER     */
+  header{
+    width: 100%;
+    height: 100px;
+  }
+ 
+  .logoTitle{
+    width: 260px;
+    height: 70px;
+    margin: 10px 10px 0px 10px;
+  }
+  header h1{
+    font-size: 50px;
+    margin: 0px;
+    color: white;
+    /*font: Courier PF Greek;*/
+  }
+  header p{
+    margin: 0px;
+  }
+  .iconosHeader {
+    margin: 0px;
+    margin-right: 10px;
+    padding-top: 30px;
+    width: 32px;
+    height: 50px;
+    float: left;
+  }
+  .linkedinIcon{
+    background-image: url( "../img/linkedin.png")  ;
+    display: inline-block;
+  }
+  .githubIcon{
+    background-image: url( "../img/github.png")  ;
+    display: inline-block;
+  }
+  .instagramIcon{
+    background-image: url( "../img/instagram.png")  ;
+    display: inline-block;
+  }
+  .emailIcon{
+    background-image: url( "../img/email.png")  ;
+    display: inline-block;
+  }
+
+  /* MENU Sandwich manu style for phones  */
+  .menuBox{
+    float: right;
+    margin: 20px;
+  }
+  #btn-menu{
+    display: none;
+    width: 25px;  
+    height: 20px;
+  }
+  .menuBox label{
+    padding: 0px;
+  }
+  .menuBox img{
+    width: 100% !important;
+  }
+  #btn-menu img{
+    width: 100% !important;
+    max-width: 100%;
+    height: auto;
+  }
+  header label {
+    display: block;
+    width: 30px;
+    height: 30px;
+    padding: 10px;
+    border-right: 1px solid #fff;
+  }
+  .navegation{
+    position: absolute;
+    background: rgba(159,204,185, 1);
+    width: 60%;
+    margin-left: 25%;
+    z-index: 1;
+  }
+  .navegation ul{
+    margin: 0;
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+  }
+  .submenu li a{
+    margin-left: 30px;
+    
+  }
+  .navegation li{
+    flex-grow: 1;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  }
+  .navegation li:hover{
+    background: rgba(0,0,0,0.3);
+  }
+  .navegation li a{
+    display: block;
+    padding: 5px 20px;
+    color: #fff;
+    text-decoration: none;
+  }
+  #btn-menu:checked ~ .navegation{
+    margin-left: -45%;
+  }
+
+
+  /*   BODY    */
+  .mainTitle{
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.1);
+    height: 430px;
+  }
+  .mainTitle img{
+    width: -webkit-fill-available;
+    vertical-align: middle;
+    height: 390px;
+    margin-top: 20px;
+  }
+  .webimage{
+    display: none;
+    visibility: hidden;
+  }
+  .mainTitle p{
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    position: relative;
+    top: -350px;
+    font-size: 20px;
+  }
+  .mainPresentation{
+    width: 100%;
+    height: 100px;
+    color: rgba(159,204,185, 1);;
+  }
+  .mainPresentation h3{
+    width: 100%;
+    font-family:  Garamond;
+    font-size: 40px;
+    text-align: center;
+    vertical-align: middle;
+    /*color:  rgba(159,204,185, 1);*/
+  }
+  .mainPresentationImg img{
+
+    width: -webkit-fill-available;
+    vertical-align: middle;
+  }
+  .OurWork{
+    width: 100%;
+    height: 300px;
+    font-size: 20px;
+  }
+  .OurWork h3{
+    color: rgba(159,204,185, 1);
+    margin: 20px 20px 10px 20px;
+  }
+  .OurWork p{
+    text-align: justify;
+    margin: 5px 20px 5px 20px;
+  }
+  .OurWork a{
+    margin: 20px;
+    padding: 10px;
+    text-align: right;
+    float: right;
+    border: 1px solid rgba(159,204,185, 1);
+    text-decoration: none;
+    color: black;
+  }
+  .OurWork a:active {
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+
+  /*   FOOTER    */
+  footer{
+    height: 200px;
+  } 
+}
+
+
+
+
+/*
+*
+*  Especific properties for 500px min resolution of screen 
+*
+*/
+@media screen and (min-width: 500px) {
+  /*    HEADER     */
+  header{
+    width: 100%;
+    height: 150px;
+  }
+  .logoTitle{
+    width: 300px;
+    height: 90px;
+    margin: 40px 10px 0px 60px;
+  }
+  header h1{
+    font-size: 50px;
+    margin: 0px;
+    color: RGB(255,255,255);
+  }
+  header p{
+    margin: 0px;
+  }
+  .iconosHeader {
+    margin: 10px ;
+    padding-top: 40px ;
+    width: 50px ;
+    height: 50px;
+  }
+  .linkedinIcon{
+    background-image: url( "../img/linkedin.png")  ;
+    display: inline-block;
+  }
+  .githubIcon{
+    background-image: url( "../img/github.png")  ;
+    display: inline-block;
+  }
+  .emailIcon{
+    background-image: url( "../img/email.png")  ;
+    display: inline-block;
+  }
+  .instagramIcon{
+    background-image: url( "../img/instagram.png")  ;
+    display: inline-block;
+    width: 50px ;
+    height: 50px;
+  }
+  /* MENU Sandwich manu style for phones  */
+  .menuBox{
+    margin: 50px 50px 10px 10px;
+    width: 490px;
+    background: rgba(255, 255, 255, 0.2);
+    float: right;
+  }
+  #btn-menu{
+    display: none;
+  }
+  header label {
+    display: none;
+  }
+  .navegation{
+    width: 100%;
+    z-index: 1;
+    text-align: center;
+  } 
+  .navegation ul{
+    margin: 0;
+    list-style: none;
+    padding: 0;
+  }
+  .menu > li{
+    position: relative;
+    display: inline-block;
+    margin: 0px 10px 0px 10px;
+  }
+  .menu > li > a{
+    text-transform: uppercase;
+  }
+  .submenu{
+    position: absolute;
+    background: rgba(255, 255, 255, 0.7);
+    display: none;
+  }
+  .submenu li a{
+    padding: 5px; 
+    display: block;
+  }
+  .submenu li{
+    border-bottom: 1px solid rgba(159,204,185, 1);
+  }
+  .navegation li:hover{
+    background:  rgba(159,204,185, 1);
+    transition: all .3s;
+  }
+  .navegation li a{
+    display: block;
+    padding: 15px 20px;
+    color: #fff;
+    text-decoration: none;
+  }
+  .navegation li a:hover{
+    color: rgba(0, 0, 0, 0.7);
+    transition: all .3s;
+  }
+  .menu li:hover .submenu{
+    display: block;
+  }
+
+
+  /*   BODY    */
+
+  article{
+    width: 35%;
+    float: left;
+  }
+  .mainPresentation{
+    height: 160px;
+    text-align: center;
+    margin-left: 15%;
+  }
+  .mainPresentation h3{
+    width: 100%;
+    font-family: Garamond;
+    font-size: 45px;
+    text-align: center;
+    color: rgba(159,204,185, 1);;
+   /*  color: rgb(220,206,89); */
+    text-decoration: none;
+    position: relative;
+    /*top: 100px;*/
+  }
+  .mainPresentationImg{
+    height: 460px;
+    float: right;
+    margin-right: 15%;
+  }
+  .mainPresentationImg img{
+    width: 90%;
+    height: 90%;
+    vertical-align: middle;
+    /*position: relative;
+    left: 260px;
+    top: -150px;*/
+    clip-path: circle(49% at 50% 50%);
+    max-height: 600px;
+    max-width: 600px;
+    margin: 20px 10px 0 10px;
+  }
+  .OurWork{
+    height: 300px;
+    font-size: 20px;
+    margin: 5px 0px 100px 15%;
+    float: left;
+}
+  }
+  .OurWork h3{
+    color: white;
+    margin: 20px 20px 10px 20px;
+  }
+  .OurWork p{
+    text-align: justify;
+    margin: 5px 20px 5px 20px;
+    color: white;
+  }
+  .OurWork a{
+    margin: 20px;
+    padding: 10px;
+    text-align: right;
+    float: right;
+    border: 1px solid rgba(159,204,185, 1);
+    text-decoration: none;
+    color: white;
+  }
+  .OurWork a:hover {
+    background-color: rgba(159,204,185, 1);
+    color: #000;
+  }
+
+  /*   FOOTER    */
+  footer{
+    height: 200px;
+  } 
+
+
+/*
+  https://www.freepik.com/author/catalyststuff/4
+
+https://github.com/Polescolano
+
+  */

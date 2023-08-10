@@ -1,0 +1,109 @@
+/* PRESENTATION General properties */
+.project{
+  width: 100%;
+  /*border-top: solid;
+  border-color: gray; */
+  /*background-color: rgba(255,255,255, 1);*/
+  margin: 2% 0px 2% 0px;
+}
+
+.project h5{
+  color: rgba(159,204,185, 1);
+  float: left;
+}
+.project p{
+  color: #fff;
+  float: left;
+}
+.projectTitle h3{
+  font-size: 40px;
+  width: 80% ;
+  text-decoration: none;
+  color: #fff;
+  text-align: center; 
+
+}
+
+  /*
+  *  Especific properties for 500px max resolution of screen 
+  */
+  @media screen and (max-width: 500px) {
+
+    /*   presentation content    */
+    .nuestraLabor p{
+        margin: 20px;    
+        font-size: 20px;
+    }
+    .nuestraLabor img{
+        width: -webkit-fill-available;
+        vertical-align: middle;
+        height: 100px;
+        margin-top: 20px;
+    }
+  }
+  
+  /*
+  *  Especific properties for 500px min resolution of screen 
+  */
+  @media screen and (min-width: 500px) {
+    
+    /*   presentation content    */
+    .projectTitle{
+      margin: 0px 0px 0px 15%;
+      width: 80% ;
+    }
+    .ProjDesc{
+        width: 30%;
+        margin: 50px 0px 0px 10%;
+    }
+    .project h5{
+      /*margin: 50px 0px 0px 10%;*/
+      font-size: 20px;
+      height: 50px;
+      width: 100% ;
+      text-decoration: none;
+      margin:  0px;
+    }
+    .project img{
+        width: 40%;
+        height: auto;
+        float: right;
+        margin: 1% 10% 1% 0px;
+    }
+    .project p{
+        /*margin: 0px 0px 0px 10%;*/
+        width: 100%;
+        margin: 0px 0px 30px 0px;
+    }
+    .ProjSkills{
+      width: 30%;
+      margin: 50px 0px 0px 10%;
+    }
+    .techTitle2{
+      width: 100% !important;
+      margin: 50px 0px 0px 0px;
+      /*margin-left: 20% !important;*/
+    }
+    .techIcons2{
+      display: contents;
+      width: 15% !important;
+      margin: 0px 0px 20px 50px !important;
+      width: 10% !important;
+      
+    }
+    .techIcons2 img{
+      width: 80px ;
+      height: 40px;
+      margin: 5px;
+      float: left;
+    }
+    .quadrat{
+      width: 40px !important;
+      height: 40px !important;
+    }
+    .separator{
+      margin: 0px 15% 0px 15%;
+      height: 1px;
+      background-color: #fff;
+    }
+  }
